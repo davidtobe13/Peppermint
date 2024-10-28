@@ -1,0 +1,27 @@
+{
+  "name": "peppermintmain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/index.ts",
+    "dev": "ts-node src/test.ts",
+    "build": "tsc",
+    "deploy": "tsc && atlas app push"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/mongodb": "^4.0.7",
+    "dotenv": "^16.4.5",
+    "mongodb": "^6.10.0",
+    "mongodb-atlas-api-client": "^4.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.8.1"
+  }
+}
